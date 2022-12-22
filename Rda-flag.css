@@ -1,0 +1,281 @@
+:root{
+    --blue-color: #0478b3;
+    --yellow-color: #efcf1a;
+    --green-color: #01994e;
+    --cover-color: #111;
+    --background-color: #fff;
+}
+
+html body{
+    margin: 2rem 25% 0 25%;
+}
+.box{
+    width: 45rem;
+    height: 30rem;
+    border: var( --background-color/*--cover-color*/) solid .5rem;
+}
+
+.box .blue{
+    width: 45rem;
+    height: 15rem;
+    background: var(--blue-color);
+}
+
+.box .blue .sun{
+    width: 8rem;
+    height: 8rem;
+    /* top: 7.5rem;
+    left: 40rem;
+    right: 40rem; */
+    position: absolute;
+    margin: 3.5rem 0 0 34rem;
+    border-radius: 50%;
+    border: var(--blue-color/*--cover-color*/) solid .2rem;
+}
+
+.box .blue .sun #sun-circle{
+    width: 4rem;
+    height: 4rem;
+    background: var(--yellow-color);
+    margin: 25% 0 0 25%;
+    border: var(--blue-color) solid .2rem;
+    border-radius: 50%;
+} 
+
+/* Styling Sun Rays */
+.box .blue .sun #sun-circle #sun-rays-1{
+    width: .9rem;
+    height: 3.2rem;
+    margin: -90% 0 0 50%;
+    background: var(--yellow-color);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.box .blue .sun  #sun-rays-2{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: 120% 50% 0 50%;
+    transform: rotateY(180deg);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+.box .blue .sun #sun-rays-3{
+    height: .9rem;
+    width: 3.2rem;
+    background: var(--yellow-color);
+    margin: -160% 0 0 110%;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+
+.box .blue .sun  #sun-rays-4{
+    height: .9rem;
+    width: 3.2rem;
+    background: var(--yellow-color);
+    transform: rotateX(180deg);
+    margin: -10% 0 0 -90%;
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+}
+
+/* Below Rays are inside #sun-rays-1 and 2 */
+.box .blue .sun  #sun-rays-5{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -150% 0 0 74%;
+    transform: rotate(17deg); 
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.box .blue .sun  #sun-rays-6{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -72% 0 0 92%;
+    transform: rotate(30deg);
+    clip-path: polygon(60% 0, 0% 100%, 100% 100%);
+}
+.box .blue .sun  #sun-rays-7{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -66% 0 0 110%;
+    transform: rotate(45deg);
+    clip-path: polygon(80% 0, 0% 100%, 100% 100%);
+}
+.box .blue .sun  #sun-rays-8{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -60% 0 0 126%;
+    transform: rotate(65deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.box .blue .sun  #sun-rays-9{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -61% 0 0 134%;
+    transform: rotate(70deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* Below Rays are inside #sun-rays-2 and 3 */
+.box .blue .sun  #sun-rays-10{
+    height: .9rem;
+    width: 3.2rem;
+    background: var(--yellow-color);
+    margin: -9% 0 0 109%;
+    /* transform: rotate(70deg); */
+    /* clip-path: polygon(100% 92%, 3% 0, 0 80%); */
+    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+}
+.box .blue .sun  #sun-rays-11{
+    height: .9rem;
+    width: 3.2rem;
+    background: var(--yellow-color);
+    margin: 1% 0 0 104%;
+    transform: rotate(16deg);
+    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+}
+.box .blue .sun  #sun-rays-12{
+    height: .9rem;
+    width: 3.2rem;
+    background: var(--yellow-color);
+    margin: 1% 0 0 92%;
+    transform: rotate(32deg);
+    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+}
+.box .blue .sun  #sun-rays-13{
+    height: .9rem;
+    width: 3.2rem;
+    background: var(--yellow-color);
+    margin: -2% 0 0 74%;
+    transform: rotate(46deg);
+    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+}
+.box .blue .sun  #sun-rays-14{
+    height: .9rem;
+    width: 3.2rem;
+    background: var(--yellow-color);
+    margin: -8% 0 0 54%;
+    transform: rotate(62deg);
+    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+}
+
+/* Below Rays are inside #sun-rays-3 and 4 */
+.box .blue .sun  #sun-rays-15{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -43% 0 0 26%;
+    transform: rotate(9deg);
+    clip-path: polygon(40% 100%, 0 0, 100% 0);
+}
+.box .blue .sun  #sun-rays-16{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -85% 0 0 4%;
+    transform: rotate(20deg);
+    clip-path: polygon(40% 100%, 0 0, 100% 0);
+}
+.box .blue .sun  #sun-rays-17{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -94% 0 0 -22%;
+    transform: rotate(38deg);
+    clip-path: polygon(40% 100%, 0 0, 100% 0);
+}
+.box .blue .sun  #sun-rays-18{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -99% 0 0 -42%;
+    transform: rotate(52deg);
+    clip-path: polygon(40% 100%, 0 0, 100% 0);
+}
+.box .blue .sun  #sun-rays-19{
+    width: .9rem;
+    height: 3.2rem;
+    background: var(--yellow-color);
+    margin: -106% 0 0 -57%;
+    transform: rotate(72deg);
+    clip-path: polygon(40% 100%, 0 0, 100% 0);
+}
+
+/* Below Rays are inside #sun-rays-4 and 1 */
+.box .blue .sun  #sun-rays-20{
+    height: .9rem;
+    width: 3.4rem;
+    background: var(--yellow-color);
+    margin: -108% 0 0 -92%;
+    transform: rotate(13deg);
+    clip-path: polygon(1% 34%, 100% 100%, 100% 0);
+}
+
+.box .blue .sun  #sun-rays-21{
+    height: .9rem;
+    width: 3.4rem;
+    background: var(--yellow-color);
+    margin: -48% 0 0 -82%;
+    transform: rotate(28deg);
+    clip-path: polygon(1% 34%, 100% 100%, 100% 0);
+}
+
+.box .blue .sun  #sun-rays-22{
+    height: .9rem;
+    width: 3.4rem;
+    background: var(--yellow-color);
+    margin: -47% 0 0 -65%;
+    transform: rotate(42deg);
+    clip-path: polygon(1% 34%, 100% 100%, 100% 0);
+}
+
+.box .blue .sun  #sun-rays-23{
+    height: .9rem;
+    width: 3.4rem;
+    background: var(--yellow-color);
+    margin: -42% 0 0 -40%;
+    transform: rotate(62deg);
+    clip-path: polygon(0 28%, 100% 100%, 100% 0);
+}
+
+.box .blue .sun  #sun-rays-24{
+    height: .9rem;
+    width: 3.4rem;
+    background: var(--yellow-color);
+    margin: -32% 0 0 -6%;
+    transform: rotate(84deg);
+    clip-path: polygon(0 58%, 100% 100%, 100% 0);
+}
+/**
+**/
+
+
+
+
+
+
+
+.box .yellow{
+    width: 45rem;
+    height: 7.5rem;
+    background: var(--yellow-color);
+}
+
+.box .green{
+    width: 45rem;
+    height: 7.5rem;
+    background: var(--green-color);
+}
+
+/**
+.box .blue .yellow-cover{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    margin: 8rem 0 0 34rem;
+    border-radius: 50%;
+    background: var(--cover-color);
+} **/

@@ -1,5 +1,5 @@
 ## Map of Rwanda
-![Image progress]{2022-12-22 14_15_24-Rwandan-Lovely-Flag-4.png}
+![Image progress](2022-12-22 14_15_24-Rwandan-Lovely-Flag-4.png)
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)

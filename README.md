@@ -1,5 +1,5 @@
-## Map of Rwanda
-
+## Flag of Rwanda
+![Progress Image](https://user-images.githubusercontent.com/82188274/209147798-748b427f-1942-463a-b9ad-82864329780f.png)
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)

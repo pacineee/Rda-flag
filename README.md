@@ -1,5 +1,5 @@
 ## Map of Rwanda
-![Image-progress!](2022-12-22 14_15_24-Rwandan-Lovely-Flag-4.png)
+![Progress Image](https://user-images.githubusercontent.com/82188274/209147798-748b427f-1942-463a-b9ad-82864329780f.png)
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)

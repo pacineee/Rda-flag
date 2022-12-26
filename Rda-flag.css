@@ -109,7 +109,7 @@ html body{
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 .box .blue #sun-rays-9{
-    width: .9rem;
+    width: .8rem;
     height: 3.4rem;
     background: var(--yellow-color);
     margin: -58% 0 0 142%;
@@ -117,47 +117,47 @@ html body{
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-/* Below Rays are inside #sun-rays-2 and 3 */
+/* Below Rays are between #sun-rays-2 and 3 */
 .box .blue #sun-rays-10{
-    height: .9rem;
-    width: 3.2rem;
+    height: .8rem;
+    width: 3.4rem;
     background: var(--yellow-color);
-    margin: -9% 0 0 109%;
-    /* transform: rotate(70deg); */
+    margin: -4% 0 0 110%;
+    transform: rotate(14deg);
     /* clip-path: polygon(100% 92%, 3% 0, 0 80%); */
-    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
 }
 .box .blue #sun-rays-11{
-    height: .9rem;
-    width: 3.2rem;
+    height: .8rem;
+    width: 3.4rem;
     background: var(--yellow-color);
-    margin: 1% 0 0 104%;
-    transform: rotate(16deg);
-    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+    margin: 2% 0 0 102%;
+    transform: rotate(24deg);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
 }
 .box .blue #sun-rays-12{
-    height: .9rem;
-    width: 3.2rem;
+    height: .8rem;
+    width: 3.4rem;
     background: var(--yellow-color);
-    margin: 1% 0 0 92%;
-    transform: rotate(32deg);
-    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+    margin: 2% 0 0 90%;
+    transform: rotate(38deg);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
 }
 .box .blue #sun-rays-13{
-    height: .9rem;
-    width: 3.2rem;
+    height: .8rem;
+    width: 3.4rem;
     background: var(--yellow-color);
-    margin: -2% 0 0 74%;
-    transform: rotate(46deg);
-    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+    margin: -4% 0 0 72%;
+    transform: rotate(52deg);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
 }
 .box .blue #sun-rays-14{
-    height: .9rem;
-    width: 3.2rem;
+    height: .8rem;
+    width: 3.4rem;
     background: var(--yellow-color);
-    margin: -8% 0 0 54%;
-    transform: rotate(62deg);
-    clip-path: polygon(100% 100%, 2% 0, 0 100%);
+    margin: -4% 0 0 50%;
+    transform: rotate(68deg);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
 }
 
 /* Below Rays are inside #sun-rays-3 and 4 */

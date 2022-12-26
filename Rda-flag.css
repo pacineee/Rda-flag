@@ -24,13 +24,10 @@ html body{
 .box .blue .sun{
     width: 5rem;
     height: 5rem;
-    /* top: 7.5rem;
-    left: 40rem;
-    right: 40rem; */
     position: absolute;
-    margin: 4% 0 0 35.9%;
+    margin: 4.8% 0 0 35%;
     border-radius: 50%;
-    border: var(--cover-color) solid 1rem;
+    border: var(/**--yellow-color**/--cover-color) solid .6rem;
 }
 
 .box .blue #sun-circle{
@@ -38,47 +35,47 @@ html body{
     height: 4rem;
     background: var(--yellow-color);
     position: absolute;
-    margin: 5.5% 0 0 37.5%;
+    margin: 6% 0 0 36.2%;
  /*   border: var(--blue-color) solid .2rem; */
     border-radius: 50%;
 } 
 
 /* Styling Sun Rays */
-.box .blue .sun #sun-circle #sun-rays-1{
+.box .blue #sun-circle #sun-rays-1{
     width: .9rem;
-    height: 3.2rem;
-    margin: -90% 0 0 50%;
+    height: 3.4rem;
+    margin: -100% 0 0 50%;
     background: var(--yellow-color);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-.box .blue .sun  #sun-rays-2{
+.box .blue  #sun-rays-2{
     width: .9rem;
-    height: 3.2rem;
+    height: 3.4rem;
     background: var(--yellow-color);
-    margin: 120% 50% 0 50%;
-    transform: rotateY(180deg);
-    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    margin: 130% 0 0 50%;
+ /**   transform: rotateY(180deg); **/
+ clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
-.box .blue .sun #sun-rays-3{
+.box .blue #sun-rays-3{
     height: .9rem;
-    width: 3.2rem;
+    width: 3.4rem;
     background: var(--yellow-color);
-    margin: -160% 0 0 110%;
+    margin: -160% 0 0 112%;
     clip-path: polygon(100% 50%, 0 0, 0 100%);
 }
 
-.box .blue .sun  #sun-rays-4{
+.box .blue  #sun-rays-4{
     height: .9rem;
-    width: 3.2rem;
+    width: 3.4rem;
     background: var(--yellow-color);
     transform: rotateX(180deg);
-    margin: -10% 0 0 -90%;
+    margin: -16% 0 0 -100%;
     clip-path: polygon(0 50%, 100% 100%, 100% 0);
 }
 
 /* Below Rays are inside #sun-rays-1 and 2 */
-.box .blue .sun  #sun-rays-5{
+.box .blue  #sun-rays-5{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -87,7 +84,7 @@ html body{
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-.box .blue .sun  #sun-rays-6{
+.box .blue #sun-rays-6{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -95,7 +92,7 @@ html body{
     transform: rotate(30deg);
     clip-path: polygon(60% 0, 0% 100%, 100% 100%);
 }
-.box .blue .sun  #sun-rays-7{
+.box .blue #sun-rays-7{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -103,7 +100,7 @@ html body{
     transform: rotate(45deg);
     clip-path: polygon(80% 0, 0% 100%, 100% 100%);
 }
-.box .blue .sun  #sun-rays-8{
+.box .blue #sun-rays-8{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -111,7 +108,7 @@ html body{
     transform: rotate(65deg);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
-.box .blue .sun  #sun-rays-9{
+.box .blue #sun-rays-9{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -121,7 +118,7 @@ html body{
 }
 
 /* Below Rays are inside #sun-rays-2 and 3 */
-.box .blue .sun  #sun-rays-10{
+.box .blue #sun-rays-10{
     height: .9rem;
     width: 3.2rem;
     background: var(--yellow-color);
@@ -130,7 +127,7 @@ html body{
     /* clip-path: polygon(100% 92%, 3% 0, 0 80%); */
     clip-path: polygon(100% 100%, 2% 0, 0 100%);
 }
-.box .blue .sun  #sun-rays-11{
+.box .blue #sun-rays-11{
     height: .9rem;
     width: 3.2rem;
     background: var(--yellow-color);
@@ -138,7 +135,7 @@ html body{
     transform: rotate(16deg);
     clip-path: polygon(100% 100%, 2% 0, 0 100%);
 }
-.box .blue .sun  #sun-rays-12{
+.box .blue #sun-rays-12{
     height: .9rem;
     width: 3.2rem;
     background: var(--yellow-color);
@@ -146,7 +143,7 @@ html body{
     transform: rotate(32deg);
     clip-path: polygon(100% 100%, 2% 0, 0 100%);
 }
-.box .blue .sun  #sun-rays-13{
+.box .blue #sun-rays-13{
     height: .9rem;
     width: 3.2rem;
     background: var(--yellow-color);
@@ -154,7 +151,7 @@ html body{
     transform: rotate(46deg);
     clip-path: polygon(100% 100%, 2% 0, 0 100%);
 }
-.box .blue .sun  #sun-rays-14{
+.box .blue #sun-rays-14{
     height: .9rem;
     width: 3.2rem;
     background: var(--yellow-color);
@@ -164,7 +161,7 @@ html body{
 }
 
 /* Below Rays are inside #sun-rays-3 and 4 */
-.box .blue .sun  #sun-rays-15{
+.box .blue #sun-rays-15{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -172,7 +169,7 @@ html body{
     transform: rotate(9deg);
     clip-path: polygon(40% 100%, 0 0, 100% 0);
 }
-.box .blue .sun  #sun-rays-16{
+.box .blue #sun-rays-16{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -180,7 +177,7 @@ html body{
     transform: rotate(20deg);
     clip-path: polygon(40% 100%, 0 0, 100% 0);
 }
-.box .blue .sun  #sun-rays-17{
+.box .blue #sun-rays-17{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -188,7 +185,7 @@ html body{
     transform: rotate(38deg);
     clip-path: polygon(40% 100%, 0 0, 100% 0);
 }
-.box .blue .sun  #sun-rays-18{
+.box .blue #sun-rays-18{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -196,7 +193,7 @@ html body{
     transform: rotate(52deg);
     clip-path: polygon(40% 100%, 0 0, 100% 0);
 }
-.box .blue .sun  #sun-rays-19{
+.box .blue #sun-rays-19{
     width: .9rem;
     height: 3.2rem;
     background: var(--yellow-color);
@@ -206,7 +203,7 @@ html body{
 }
 
 /* Below Rays are inside #sun-rays-4 and 1 */
-.box .blue .sun  #sun-rays-20{
+.box .blue #sun-rays-20{
     height: .9rem;
     width: 3.4rem;
     background: var(--yellow-color);
@@ -215,7 +212,7 @@ html body{
     clip-path: polygon(1% 34%, 100% 100%, 100% 0);
 }
 
-.box .blue .sun  #sun-rays-21{
+.box .blue #sun-rays-21{
     height: .9rem;
     width: 3.4rem;
     background: var(--yellow-color);
@@ -224,7 +221,7 @@ html body{
     clip-path: polygon(1% 34%, 100% 100%, 100% 0);
 }
 
-.box .blue .sun  #sun-rays-22{
+.box .blue #sun-rays-22{
     height: .9rem;
     width: 3.4rem;
     background: var(--yellow-color);
@@ -233,7 +230,7 @@ html body{
     clip-path: polygon(1% 34%, 100% 100%, 100% 0);
 }
 
-.box .blue .sun  #sun-rays-23{
+.box .blue #sun-rays-23{
     height: .9rem;
     width: 3.4rem;
     background: var(--yellow-color);
@@ -242,7 +239,7 @@ html body{
     clip-path: polygon(0 28%, 100% 100%, 100% 0);
 }
 
-.box .blue .sun  #sun-rays-24{
+.box .blue #sun-rays-24{
     height: .9rem;
     width: 3.4rem;
     background: var(--yellow-color);

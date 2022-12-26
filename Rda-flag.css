@@ -27,7 +27,7 @@ html body{
     position: absolute;
     margin: 4.8% 0 0 35%;
     border-radius: 50%;
-    border: var(/**--yellow-color**/--cover-color) solid .6rem;
+    border: var(--yellow-color/**--cover-color**/) solid .6rem;
 }
 
 .box .blue #sun-circle{

@@ -22,23 +22,24 @@ html body{
 }
 
 .box .blue .sun{
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
     /* top: 7.5rem;
     left: 40rem;
     right: 40rem; */
     position: absolute;
-    margin: 3.5rem 0 0 34rem;
+    margin: 4% 0 0 35.9%;
     border-radius: 50%;
-    border: var(--blue-color/*--cover-color*/) solid .2rem;
+    border: var(--cover-color) solid 1rem;
 }
 
-.box .blue .sun #sun-circle{
+.box .blue #sun-circle{
     width: 4rem;
     height: 4rem;
     background: var(--yellow-color);
-    margin: 25% 0 0 25%;
-    border: var(--blue-color) solid .2rem;
+    position: absolute;
+    margin: 5.5% 0 0 37.5%;
+ /*   border: var(--blue-color) solid .2rem; */
     border-radius: 50%;
 } 
 
